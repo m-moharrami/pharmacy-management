@@ -1,9 +1,11 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family:sans-serif;
-	background-image: url("../images/bg.png");
-	background-color: #78e4ff;
+	font-family: sans-serif;
+	background-image: url("../images/index.png");
+	height:auto;
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -27,7 +29,7 @@ body{
 h2{
 	position:relative;
 	margin :0 auto;
-	color: #2f4f4f;
+	color: #6c2e2e;
 	font-size: 22px;
 	padding: 0 0 20px;
 }
@@ -46,7 +48,7 @@ h3{
 	background: none;
 	border: none;
 	-webkit-appearance: none;
-	cusrsor: pointer;
+	cursor: pointer;
 	text-indent: 5px;
 }
 
@@ -122,7 +124,7 @@ h3{
 	outline: none;
 	border-radius: 20px;
 	color: #fff;
-	background: #090adc;
+	background: #ce8415ad;
 	height: 40px;
 	width: 80%;
 	font-size:18px;
@@ -131,6 +133,6 @@ h3{
 
 .loginbox input[type="submit"]:hover
 {
-	background: #04e4e4;
-	color: #262626;
+	background: #eed21ad1;
+	color: #1515156f;
 }

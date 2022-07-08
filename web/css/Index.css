@@ -2,8 +2,10 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-image: url("../images/bg.png");
-	background-color: #78e4ff;
+	background-image: url("../images/index.png");
+	height:auto;
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -22,13 +24,14 @@ body{
 	box-sizing: border-box;
 	background: rgba(255,250,250,0.85);
 	margin: 0 auto;
+	border-radius: 50px;
 }
 
 h2{
 	top:-20%;
 	margin: 0 auto;
 	padding: 0 0 40px;
-	color:#2f4f4f;
+	color:#6c2e2e;
 	font-size:22px;
  }
 
@@ -47,12 +50,12 @@ h2{
 	width: 64%;
 	color: #fff;
 	font-size: 18px;
-	background: #090adc;
+	background: #ce8415ad;
 	cursor: pointer;
 	border-radius: 20px;	
 }
  
 .button1:hover{
-	color: #262626;
-	background: #04e4e4;
+	color: #1515156f;
+	background: #eed21ad1;
 }

@@ -2,8 +2,8 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-image: url("b2g.png");
-		background-repeat: no-repeat;
+	background-image: url("../images/add-product.png");
+	background-repeat: no-repeat;
 }
 .main{
 	margin: 0 auto;

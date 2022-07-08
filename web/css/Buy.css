@@ -150,7 +150,7 @@ h2{
 
 .card input[type=number]::-webkit-inner-spin-button, 
 .card input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
+  	-webkit-appearance: none; 
 }
 
 .card button {
