@@ -21,7 +21,7 @@
                 <div class="container2">
                     <div class="navbar">
                         <a href="SellerHomepage.jsp">HOME</a>
-                        <a href="AddProduct.html">ADD</a>
+                        <a href="addProduct.html">ADD</a>
                         <a href="AddInventory.jsp">RESTOCK</a>
                         <a href="SellerOrders.jsp">ORDERS</a>
                     </div>
@@ -43,7 +43,7 @@
                 java.sql.Connection conn = null;
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
-                    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "root");
+                    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "moharram");
                     cs = conn.prepareCall("call getsellerorders(?)");
                     cs.setString(1, guid);
                     rs = cs.executeQuery();

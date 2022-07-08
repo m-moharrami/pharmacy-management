@@ -24,6 +24,7 @@ body{
 	padding: 40px 30px;
 	background: rgba(255,250,250,0.85);
 	margin:0 auto;
+	border-radius: 50px;
 }
 
 h2{

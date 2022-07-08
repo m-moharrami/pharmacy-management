@@ -46,7 +46,7 @@
                 String query = "select fname,uid,address,phno,email from customer where uid=?";
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
-                    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "root");
+                    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "moharram");
                     ps = conn.prepareStatement(query);
                     ps.setString(1, guid);
                     rs = ps.executeQuery();

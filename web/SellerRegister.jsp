@@ -26,7 +26,7 @@
             ResultSet rs = null;
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "root");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "moharram");
                 ps1 = conn.prepareStatement(query1);
                 ps1.setString(1, uid1);
                 rs = ps1.executeQuery();
@@ -41,9 +41,9 @@
                         ps2.setString(4, address1);
                         ps2.setLong(5, phno2);
                         int i = ps2.executeUpdate();
-                        response.sendRedirect("Login.html");
+                        response.sendRedirect("login.html");
                     } else {
-                        response.sendRedirect("SellerRegisterError2.html");
+                        response.sendRedirect("sellerRegisterError2.html");
                     }
                 }
             } catch (Exception e) {

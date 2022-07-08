@@ -35,7 +35,7 @@
             PreparedStatement ps3 = null;
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "root");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "moharram");
                 ps1 = conn.prepareStatement(query1);
                 ps1.setString(1, prid);
                 rs = ps1.executeQuery();
@@ -56,10 +56,10 @@
                     int j = ps3.executeUpdate();
                     response.sendRedirect("AddInventory.jsp");
                 } else {
-                    response.sendRedirect("AddProductError.html");
+                    response.sendRedirect("addProductError.html");
                 }
             } catch (Exception e) {
-                response.sendRedirect("AddProductError2.html");
+                response.sendRedirect("addProductError2.html");
             } finally {
                 try {
                     if (rs != null) {

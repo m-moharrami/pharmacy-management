@@ -10,7 +10,7 @@
         <%
             HttpSession httpsession = request.getSession();
             httpsession.invalidate();
-            response.sendRedirect("Index.html");
+            response.sendRedirect("index.html");
         %>
     </body>
 </html>

@@ -30,12 +30,12 @@
 
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "root");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "moharram");
                 ps1 = conn.prepareStatement(query1);
                 ps1.setString(1, uid1);
                 rs = ps1.executeQuery();
                 if (rs.next()) {
-                    response.sendRedirect("RegisterError1.html");
+                    response.sendRedirect("registerError1.html");
                 } else {
                     if (pass1.equals(pass2)) {
                         ps2 = conn.prepareStatement(query2);
@@ -47,9 +47,9 @@
                         ps2.setString(6, address1);
                         ps2.setLong(7, phno2);
                         int i = ps2.executeUpdate();
-                        response.sendRedirect("Login.html");
+                        response.sendRedirect("login.html");
                     } else {
-                        response.sendRedirect("RegisterError2.html");
+                        response.sendRedirect("registerError2.html");
                     }
                 }
             } catch (Exception e) {
