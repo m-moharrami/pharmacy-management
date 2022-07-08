@@ -96,20 +96,20 @@ body{
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
+  	width: 100%;
+  	border-collapse: collapse;
     border: 1px solid black;
 }
 th {
 	border: 1px solid black;
-  padding: 15px;
-  text-align: left;
-  background-color: #0ca1a6;
-  color: white;
+  	padding: 15px;
+  	text-align: left;
+  	background-color: #0ca1a6;
+  	color: white;
 }
 
 tr,td{
 	border: 1px solid black;
-  padding: 15px;
-  text-align: left;
+ 	padding: 15px;
+  	text-align: left;
 }

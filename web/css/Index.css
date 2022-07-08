@@ -25,13 +25,13 @@ body{
 }
 
 h2{
- 	top:-20%;
+	top:-20%;
 	margin: 0 auto;
 	padding: 0 0 40px;
 	color:#2f4f4f;
- 	font-size:22px;
+	font-size:22px;
  }
- 
+
 .indexbox button
 {
 	width: 100%;
@@ -40,7 +40,7 @@ h2{
  
 .button1{
 	position: realtive;
-  	align: center;
+  	align-items: center;
 	border: none;
 	outline: none;
 	height: 40px;

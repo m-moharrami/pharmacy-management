@@ -88,11 +88,11 @@ body{
 	backgroud-color: transparent;
 }
 .bigcard {
-  width: 80%;
-  padding: 0 10px 10px 10px;
-  align: center;
-  display: inline-block;
-  border-radius:10px;
+  	width: 80%;
+  	padding: 0 10px 10px 10px;
+  	align: center;
+  	display: inline-block;
+  	border-radius:10px;
 }
 .bigcard1{
 	float:left;
@@ -140,12 +140,12 @@ body{
 	background-color: #0ca1a6;
 	color: white;
 	border:1px solid #0ca1a6;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  	-webkit-transition-duration: 0.4s;
+  	transition-duration: 0.4s;
 }
 
 .bigcard2 input[type="submit"]:hover{
-  background-color: #4CAF50;
-  border:1px solid #4CAF50;
-  color: white;
+  	background-color: #4CAF50;
+  	border:1px solid #4CAF50;
+  	color: white;
 }
