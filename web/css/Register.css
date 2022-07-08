@@ -31,7 +31,7 @@ h2{
 	top: 0%;
 	margin: 0 auto;
 	padding: 0 0 30px;
-	color:#6c2e2e;
+	color:#0b377d;
 	font-size:22px; 
 }
 h3{
@@ -70,8 +70,8 @@ h3{
 	border: none;
 	outline: none;
 	border-radius: 20px;
-	color: #fff;
-	background: #ce8415ad;
+	color: rgba(34, 170, 207, 0.834);
+	background: #e9ec27ad;
 	height: 40px;
 	width: 80%;
 	font-size:18px;
@@ -79,6 +79,6 @@ h3{
 }
 .registerbox input[type="submit"]:hover
 {
-	background: #eed21ad1;
-	color: #1515156f;
+	background: #c0ee1ad1;
+	color: #2b671cba;
 }

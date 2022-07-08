@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-image: url("../images/add-product.png");
+	background-image: url("../images/orders.png");
 	background-repeat: no-repeat;
 }
 .main{
@@ -80,12 +80,12 @@ body{
 .filler{
 	width:100%;
 	height:50px;
-	backgroud-color: transparent;
+	background-color: transparent;
 }
 .filler2{
 	width:100%;
 	height:30px;
-	backgroud-color: transparent;
+	background-color: transparent;
 }
 .bigcard {
   	width: 80%;

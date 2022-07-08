@@ -31,7 +31,7 @@ h2{
 	top:-20%;
 	margin: 0 auto;
 	padding: 0 0 40px;
-	color:#6c2e2e;
+	color:#0b377d;
 	font-size:22px;
  }
 
@@ -42,20 +42,20 @@ h2{
 }
  
 .button1{
-	position: realtive;
+	position: relative;
   	align-items: center;
 	border: none;
 	outline: none;
 	height: 40px;
 	width: 64%;
-	color: #fff;
+	color: rgba(34, 170, 207, 0.834);
 	font-size: 18px;
-	background: #ce8415ad;
+	background: #e9ec27ad;
 	cursor: pointer;
 	border-radius: 20px;	
 }
  
 .button1:hover{
-	color: #1515156f;
-	background: #eed21ad1;
+	color: #2b671cba;
+	background: #a7ee1ad1;
 }
