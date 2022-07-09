@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="ISO-8859-1">
         <title>Orders</title>
         <link rel="stylesheet" href="css/Orders.css">
     </head>
